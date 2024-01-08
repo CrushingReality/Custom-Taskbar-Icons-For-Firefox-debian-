@@ -1,0 +1,27 @@
+﻿sudo -s
+
+
+cd /lib/firefox/browser/chrome/icons
+
+
+rm -r default
+
+
+cd /home/USER/Documents
+
+
+cp -r default /lib/firefox/browser/chrome/icons
+
+
+Reboot now
+
+
+
+
+Command String
+
+sudo -s
+
+cd /lib/firefox/browser/chrome/icons && rm -r default && cd /home/USER/Documents && cp -r default /lib/firefox/browser/chrome/icons
+
+reboot now
